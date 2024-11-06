@@ -17,9 +17,11 @@ This is a task management app that helps you stay organized and keep track of yo
 
 ## Here is the curls
 Get Tasks
+  
   curl --location 'http://localhost:3000/tasks'
 
 Create Task
+  
   curl --location 'http://localhost:3000/tasks' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -27,6 +29,7 @@ Create Task
 }'
 
 Delete Task
+
 curl --location --request DELETE 'http://localhost:3000/tasks/1'
 
 ## Contributing
