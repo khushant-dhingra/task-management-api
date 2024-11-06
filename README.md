@@ -12,7 +12,8 @@ This is a task management app that helps you stay organized and keep track of yo
 
 1. Clone the repository: `git clone https://github.com/your-username/Task-Management-App.git`
 2. Install dependencies: `npm install`
-3. Start the app: `npm start`
+3. Build the app: `npm run build`
+4. Start the app: `npm run start`
 
 ## Contributing
 
