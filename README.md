@@ -12,10 +12,10 @@ This is a task management app that helps you stay organized and keep track of yo
 ## Configure Environment
 
 - Check .env file to enusre below settings
-    SERVER_PORT = 3000
-    DATABASE_DIRECTORY_SRC = 'task.sqlite'
-    BASE_URL = "http://localhost:3000"
-    ALLOWED_ORIGINS = "http://localhost:5173"
+    1. SERVER_PORT = 3000
+    2. DATABASE_DIRECTORY_SRC = 'task.sqlite'
+    3. BASE_URL = "http://localhost:3000"
+    4. ALLOWED_ORIGINS = "http://localhost:5173"
 - Make sure the Allowed Origins key includes the app's URL to enable CORS to interact with this API.
 
 ## Installation
