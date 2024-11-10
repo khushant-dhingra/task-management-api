@@ -1,6 +1,6 @@
 # Task Management App
 
-This is a task management app that helps you stay organized and keep track of your tasks and projects. With this app, you can easily create, delete and get your tasks.
+This is a task management api that helps you stay organized and keep track of your tasks and projects. With this app, you can easily create, delete and get your tasks.
 
 ## Features
 
@@ -20,7 +20,7 @@ This is a task management app that helps you stay organized and keep track of yo
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/Task-Management-App.git`
+1. Clone the repository: `git clone https://github.com/your-username/task-management-api.git`
 2. Install dependencies: `npm install`
 3. Build the app: `npm run build`
 4. Start the app: `npm run start`
