@@ -8,6 +8,16 @@ This is a task management app that helps you stay organized and keep track of yo
 - Delete task: Delete existing task.
 - Get task: Get list of tasks.
 
+
+## Configure Environment
+
+- Check .env file to enusre below settings
+    SERVER_PORT = 3000
+    DATABASE_DIRECTORY_SRC = 'task.sqlite'
+    BASE_URL = "http://localhost:3000"
+    ALLOWED_ORIGINS = "http://localhost:5173"
+- Make sure the Allowed Origins key includes the app's URL to enable CORS to interact with this API.
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/Task-Management-App.git`
