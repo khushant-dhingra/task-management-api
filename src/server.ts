@@ -1,10 +1,17 @@
 import express from "express";
 import { config } from "./config";
 import routes from "./routes";
+import cors from "cors";
 
 (async () => {
   try {
     const server = express();
+
+    const corsOptions = {
+      origin: config.env.ALLOWED_ORIGINS,
+      credentials: true,
+    };
+    server.use(cors(corsOptions));
 
     server.use(express.urlencoded({ extended: false }));
     server.use(express.json());
